@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700&amp;subset=cyrillic-ext"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="company d-flex justify-content-between">
+                    <div class="company_logo d-flex">
+                        <p class="logo_title">agro livestock</p>
+                        <!-- <button class="lang_box button align-items-center">
+                            ўз
+                        </button> -->
+                    </div>
+                    <ul class="menu d-flex">
+                        <li class="menu_items"><a href="#about_link" class="menu_link">Agro Livestock ҳақида</a></li>
+                        <li class="menu_items"><a href="#product_info_link" class="menu_link">“RB-51” Вакцинаси</a></li>
+                        <li class="menu_items"><a href="#breeds_link" class="menu_link">Зотлар ҳақида</a></li>
+                        <li class="menu_items"><a href="#" class="menu_link">Алоқа</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about" id="about_link">
+            <div class="container">
+                <div class="about_title">Agro Livestock ҳақида</div>
+                <div class="about_subtitle">Фирма 2015 йил ташкил топган шу кунгача европанинг бир қатор фирмалари билан
+                    хамкорлик қилган, ўзбекистон бўйлаб куп миқдорда чорва моллари, эчкилар олиб келган, ундан ташқари
+                    чорвачилик ва қишлок хужалиги техника ва асбоб-анжомлар хам етказиб беришда етакчилик қилиб келган
+                    <br><br>
+                    Човачиликда наслли қорамоллар етказиб бериш ҳамда чорва соҳасида керакли техника ва асбоб анжомлар
+                    билан таъминлайди. Хозир кушимча вакцина хам олиб келиб сотмоқда
+                </div>
+            </div>
+        </section>
+
+        <section class="product" id="product_info_link">
+            <div class="container">
+                <div class="product_view d-flex">
+                    <div class="product_img col-5"><img src="img/product.jpg" alt="" class="product_images"></div>
+                    <div class="product_infotext offset-1 col-5">
+                        <div class="product_title">“RB-51” ВАКЦИНАСИ ҲАҚИДА</div>
+                        <button class="product_btn" onclick="window.location.href = 'html/product.html'">
+                            БАТАФСИЛ МА’ЛУМОТ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="breeds" id="breeds_link">
+            <div class="container">
+                <div class="breeds__box d-flex justify-content-center">
+                    <div class="breeds__cards d-flex justify-content-between gap-5 text-center">
+                        <div class="card_box">
+                            <a href="#" onclick="window.location.href = 'bulls.html'"><img src="img/bull 1.png"
+                                    alt="bull" class="bull_img  box-left"></a>
+                            <p class="breeds__title">Буқалар зоти</p>
+                            <button class="button breeds__btn" onclick="window.location.href = 'html/bulls.html'">БАТАФСИЛ
+                                МА’ЛУМОТ
+                            </button>
+                        </div>
+                        <div class="card_box">
+                            <a href="#" onclick="window.location.href = 'goats.html'"><img src="img/goat 1.png"
+                                    alt="goat" class="goat_img box-right"></a>
+                            <p class="breeds__title">Эчкилар зоти</p>
+                            <button class="button breeds__btn" onclick="window.location.href = 'html/goats.html'">БАТАФСИЛ
+                                МА’ЛУМОТ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel_sec">
+            <div class="container">
+                <div class="carousel__content offset-1 col-10">
+                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/courusel1.png" class="d-block w-100 rnd" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/courusel2.png" class="d-block w-100 rnd" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/courusel3.png" class="d-block w-100 rnd" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="container">
+                <div class="social__media text-center">
+                    <a href="#"><img src="icons/Telegram_logo 1.png" alt="tg"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts align-items-center">
+                <div class="footer__top d-flex justify-content-around mb-5">
+                    <div class="contacts-location text-center">
+                        <img src="icons/gps.png" alt="gps" class="contacts-img d-block mb-3">
+                        Манзилимиз: Тошкент шаҳри Яккасарой тумани Шота Руставели 150.
+                    </div>
+                    <div class="contacts-line"></div>
+                    <div class="contacts-phone">
+                        <img src="icons/phone.png" alt="phone" class="contacts-img d-block mb-3">
+                        <div class="phone-numbers text-center">
+                            +998(97)1552901
+                            +998(97)1552931
+                            +998(97)1552904
+                        </div>
+                    </div>
+                </div>
+                <div class="vrline"></div>
+                <div class="footer__bottom mt-4">
+                    AGRO <br> LIVESTOCK
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
